@@ -131,26 +131,43 @@ This section explains the function and usage of each script and configuration fi
 
 ## ⚙️ Command Files (`.command`)
 
-These are shell wrappers for Python scripts. Make sure they are executable before running:
+These are macOS shell wrappers for Python scripts. Once authorized, they are double-clickable like apps.
 
-```bash
-chmod +x run_recursion_manager.command
-chmod +x run_parse.command
-chmod +x run_merge_zeroomega.command
-```
+### 🛡 macOS Authorization Instructions
+
+Before running a `.command` file for the first time:
+
+1. **Make it executable**:
+   ```bash
+   chmod +x run_parse.command
+   chmod +x run_merge_zeroomega.command
+   chmod +x run_recursion_manager.command
+   ```
+
+2. **Bypass macOS gatekeeping**:
+   - **Right-click** the file and choose **Open**  
+   - A security prompt will appear — confirm **Open Anyway**
+
+3. **Complete authorization**:
+   - Open **System Settings → Privacy & Security**
+   - Scroll to the bottom and **click “Allow Anyway”** next to the script name
+
+After this setup, you can double-click these scripts normally.
+
+---
 
 ### `run_recursion_manager.command`
-Master script (planned) for launching all parsing, merging, and archival steps across all GPTs.
+Master script (planned) for automating all parsing, merging, and archival steps across all GPTs.
 
 ### `run_parse.command`
-Triggers `parse_sessions.py`, extracting session transcripts from each GPT's user data (`conversations.json`) into markdown files.
+Triggers `parse_sessions.py`, extracting markdown transcripts from each GPT’s `conversations.json`.
 
 ```bash
 sh run_parse.command
 ```
 
 ### `run_merge_zeroomega.command`
-Runs `merge_zeroomega_sessions.py`, combining all parsed GPT-0Ω markdown sessions into a single archive.
+Runs `merge_zeroomega_sessions.py`, combining all GPT-0Ω session markdowns into a single archive.
 
 ```bash
 sh run_merge_zeroomega.command
