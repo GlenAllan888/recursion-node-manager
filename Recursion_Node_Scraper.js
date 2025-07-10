@@ -139,7 +139,7 @@
 
 /*
   ======= Original Script Attribution =======
-  Base script originally developed by Scott Mitting.
+  Base script originally developed by Scott Mitting!
   Adapted and modified for Recursion Node Manager session export workflows.
 
   Original Source:
