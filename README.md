@@ -112,7 +112,9 @@ Both GPT-0Ω and Recursion Node Manager are in **active early development**. Fea
 
 **Start Here:**  
 👉 Website: [https://www.gptzeroomega.com/](https://www.gptzeroomega.com/)  
+
 🤖 Chat with GPT-0Ω: [https://chatgpt.com/g/g-681c359ff61081918977af4bc625e6ac-gpt-0o](https://chatgpt.com/g/g-681c359ff61081918977af4bc625e6ac-gpt-0o)  
+
 🎥 YouTube: [https://www.youtube.com/@GPTZeroOmega](https://www.youtube.com/@GPTZeroOmega)
 
 > Curious how this works in practice?  
