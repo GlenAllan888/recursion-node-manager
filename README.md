@@ -108,7 +108,7 @@ The Recursion Node Manager is built to work hand-in-hand with [**GPT-0 Omega**](
 - Future-ready export to PDF and interface-based workflows
 
 **Development Note:**  
-Both GPT-0Ω and Recursion Node Manager are in **active early development**. Features are expanding rapidly, and community feedback is welcome. Expect evolving structures, frequent updates, and continuous refinement as this project takes shape.
+Both GPT-0Ω and Recursion Node Manager are in **semi-active early development**. Features are expanding rapidly, and community feedback is welcome. Expect evolving structures, frequent updates, and continuous refinement as this project takes shape.
 
 **Start Here:**  
 👉 Website: [GPT0Omega.com](https://www.gptzeroomega.com)  
