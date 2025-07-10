@@ -90,7 +90,32 @@ It turns session history into a terrain you can traverse — a **cognitive lands
 - Future UI in development (planned Mac app with drag-and-drop workflow)
 
 ---
+
 ---
+
+## 🔗 Core Toolset: GPT-0Ω + Recursion Node Manager
+
+The Recursion Node Manager is built to work hand-in-hand with **[GPT-0 Omega](https://www.gptzeroomega.com/)** — a custom GPT designed to help users create, evolve, and archive their own GPTs using plain language and recursive interaction strategies. Together, these tools form a foundational environment for user-driven AI development.
+
+**GPT-0Ω** offers:
+- Recursive guidance for GPT builders of any experience level
+- Conceptual frameworks beyond code (using context, tone, memory)
+- Iterative co-design protocols to refine GPT behaviors
+
+**Recursion Node Manager** enables:
+- Session parsing, merging, and markdown archival
+- Visual formatting of session logs, with image and canvas preservation
+- Future-ready export to PDF and interface-based workflows
+
+**Development Note:**  
+Both GPT-0Ω and Recursion Node Manager are in **active early development**. Features are expanding rapidly, and community feedback is welcome. Expect evolving structures, frequent updates, and continuous refinement as this project takes shape.
+
+**Start Here:**  
+👉 Website: [https://www.gptzeroomega.com/](https://www.gptzeroomega.com/)  
+📺 YouTube: [https://www.youtube.com/@GPTZeroOmega](https://www.youtube.com/@GPTZeroOmega)
+
+---
+
 ---
 
 # 🗂 File Index – Recursion Node Manager
