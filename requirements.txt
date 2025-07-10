@@ -1,0 +1,14 @@
+# core
+ujson
+markdown2
+weasyprint
+gradio
+
+# recommended additions
+beautifulsoup4
+requests
+pillow
+jinja2
+
+# optional, depending on PDF strategy
+reportlab
