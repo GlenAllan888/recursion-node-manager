@@ -95,7 +95,7 @@ It turns session history into a terrain you can traverse — a **cognitive lands
 
 ## 🔗 Core Toolset: GPT-0Ω + Recursion Node Manager
 
-The Recursion Node Manager is built to work hand-in-hand with **[GPT-0 Omega](https://www.gptzeroomega.com/)** — a custom GPT designed to help users create, evolve, and archive their own GPTs using plain language and recursive interaction strategies. Together, these tools form a foundational environment for user-driven AI development.
+The Recursion Node Manager is built to work hand-in-hand with [**GPT-0 Omega**](https://www.gptzeroomega.com) — a custom GPT designed to help users create, evolve, and archive their own GPTs using plain language and recursive interaction strategies. Together, these tools form a foundational environment for user-driven AI development.
 
 **GPT-0Ω** offers:
 - Recursive guidance for GPT builders of any experience level
@@ -111,11 +111,9 @@ The Recursion Node Manager is built to work hand-in-hand with **[GPT-0 Omega](ht
 Both GPT-0Ω and Recursion Node Manager are in **active early development**. Features are expanding rapidly, and community feedback is welcome. Expect evolving structures, frequent updates, and continuous refinement as this project takes shape.
 
 **Start Here:**  
-👉 Website: [https://www.gptzeroomega.com/](https://www.gptzeroomega.com/)  
-
-🤖 Chat with GPT-0Ω: [https://chatgpt.com/g/g-681c359ff61081918977af4bc625e6ac-gpt-0o](https://chatgpt.com/g/g-681c359ff61081918977af4bc625e6ac-gpt-0o)  
-
-🎥 YouTube: [https://www.youtube.com/@GPTZeroOmega](https://www.youtube.com/@GPTZeroOmega)
+👉 Website: [GPT0Omega.com](https://www.gptzeroomega.com)  
+🤖 Chat with [GPT-0Ω](https://chatgpt.com/g/g-681c359ff61081918977af4bc625e6ac-gpt-0o)  
+🎥 YouTube: [GPTZeroOmega](https://www.youtube.com/@GPTZeroOmega)
 
 > Curious how this works in practice?  
 > Start a conversation with **GPT-0Ω** — the GPT designed to help you build GPTs.  
