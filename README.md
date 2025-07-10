@@ -173,6 +173,13 @@ Runs `merge_zeroomega_sessions.py`, combining all GPT-0Ω session markdowns into
 sh run_merge_zeroomega.command
 ```
 
+### `run_merge_chaos.command`
+Runs `merge_chaos_sessions.py`, combining all Chaos system session markdowns into a single archive.
+
+```bash
+sh run_merge_chaos.command
+```
+
 ---
 
 ## 🧠 Core Parsing and Merging
@@ -187,7 +194,7 @@ Combines parsed session markdowns into one continuous file per GPT. Includes ses
 
 ## 🧾 Archive Rebuilders
 
-### `restructure_zeroomega_archive.py`, `restructure_court_archive.py`
+### `restructure_zeroomega_archive.py`
 Takes an index+summary markdown file and restructures it by placing all index entries at the top, followed by detailed sections. This is used for clean navigation in recursion node archives.
 
 ```bash
