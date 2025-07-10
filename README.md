@@ -131,7 +131,13 @@ This section explains the function and usage of each script and configuration fi
 
 ## ⚙️ Command Files (`.command`)
 
-These are shell wrappers for Python scripts. Make sure they are executable (`chmod +x` if needed).
+These are shell wrappers for Python scripts. Make sure they are executable before running:
+
+```bash
+chmod +x run_recursion_manager.command
+chmod +x run_parse.command
+chmod +x run_merge_zeroomega.command
+```
 
 ### `run_recursion_manager.command`
 Master script (planned) for launching all parsing, merging, and archival steps across all GPTs.
@@ -143,8 +149,8 @@ Triggers `parse_sessions.py`, extracting session transcripts from each GPT's use
 sh run_parse.command
 ```
 
-### `run_merge_zeroomega.command`, `run_merge_court.command`, etc.
-Each runs the corresponding `merge_<gptname>_sessions.py` script, combining all session markdowns into a single archive.
+### `run_merge_zeroomega.command`
+Runs `merge_zeroomega_sessions.py`, combining all parsed GPT-0Ω markdown sessions into a single archive.
 
 ```bash
 sh run_merge_zeroomega.command
