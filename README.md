@@ -204,7 +204,3 @@ pip install -r requirements.txt
 ```
 
 These are designed to run locally within the `RecursionNodeManager` folder, avoiding global installs.
-
----
-
-Let me know if you'd like this exported as `FILES.md`, added into the README, or versioned into your repo directly.
