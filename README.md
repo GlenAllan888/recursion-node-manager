@@ -88,3 +88,93 @@ It turns session history into a terrain you can traverse — a **cognitive lands
   - Parsing, merging, and PDF/image archive generation
   - Session indexing and update logging
 - Future UI in development (planned Mac app with drag-and-drop workflow)
+
+---
+---
+---
+
+# 🗂 File Index – Recursion Node Manager
+
+This section explains the function and usage of each script and configuration file in the repository. All tools are intended to be self-contained and executable via `.command` files or terminal in the root directory.
+
+---
+
+## ⚙️ Command Files (`.command`)
+
+These are shell wrappers for Python scripts. Make sure they are executable (`chmod +x` if needed).
+
+### `run_recursion_manager.command`
+Master script (planned) for launching all parsing, merging, and archival steps across all GPTs.
+
+### `run_parse.command`
+Triggers `parse_sessions.py`, extracting session transcripts from each GPT's user data (`conversations.json`) into markdown files.
+
+```bash
+sh run_parse.command
+```
+
+### `run_merge_zeroomega.command`, `run_merge_court.command`, etc.
+Each runs the corresponding `merge_<gptname>_sessions.py` script, combining all session markdowns into a single archive.
+
+```bash
+sh run_merge_zeroomega.command
+```
+
+---
+
+## 🧠 Core Parsing and Merging
+
+### `parse_sessions.py`
+Scans user folders and extracts sessions from `conversations.json`, generating one markdown file per session. Also detects and names GPT folders if needed.
+
+### `merge_<gptname>_sessions.py`
+Combines parsed session markdowns into one continuous file per GPT. Includes session titles and original timestamps for indexing.
+
+---
+
+## 🧾 Archive Rebuilders
+
+### `restructure_zeroomega_archive.py`, `restructure_court_archive.py`
+Takes an index+summary markdown file and restructures it by placing all index entries at the top, followed by detailed sections. This is used for clean navigation in recursion node archives.
+
+```bash
+python restructure_zeroomega_archive.py
+```
+
+---
+
+## 🔍 Extraction and Debug Tools
+
+### `dump_first2.py`
+Quickly extracts the first two sessions from each GPT folder to help the user identify what GPTs are in their archive.
+
+```bash
+python dump_first2.py
+```
+
+### `Recursion_Node_Scraper.js`
+A browser console script for temporary use. Paste into the DevTools console while inside a ChatGPT session to export that session into clean HTML. Used when full data downloads are impractical.
+
+---
+
+## 💻 Interface / UI (In Development)
+
+### `app.py`
+Prototype Gradio-based UI for selecting, parsing, and previewing sessions in a web interface. Future versions will serve as the visual frontend for the full manager.
+
+---
+
+## 📦 Environment and Dependency Management
+
+### `requirements.txt`
+Install all dependencies for this repo with:
+
+```bash
+pip install -r requirements.txt
+```
+
+These are designed to run locally within the `RecursionNodeManager` folder, avoiding global installs.
+
+---
+
+Let me know if you'd like this exported as `FILES.md`, added into the README, or versioned into your repo directly.
