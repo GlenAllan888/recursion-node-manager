@@ -136,3 +136,13 @@
 
   console.log(`✅ Exported ${items.length} items as “${a.download}” with extra spacing.`);
 })();
+
+/*
+  ======= Original Script Attribution =======
+  Base script originally developed by Scott Mitting.
+  Adapted and modified for Recursion Node Manager session export workflows.
+
+  Original Source:
+  https://github.com/mittingphx/WebsiteAutomation/blob/main/scripts/chatgpt.com/ExportSingleChat.js
+  ==========================================
+*/
